@@ -1,0 +1,371 @@
+/*CALENDAR CSS [ALEX]
+
+body{
+  font-family: Baskerville Old Face !important;
+
+}*/
+
+@font-face {
+
+font-family: 'Tahoma';
+
+src: url('../fonts/tahoma.ttf?') format('truetype');
+
+}
+
+body{
+  /*font-family: Questrial,sans-serif !important;*/
+  font-family: Tahoma, Segoe, sans-serif !important;
+
+}
+.btn-selections{
+  color:#fff;
+  background-color:#00334E !important;
+  border-color: #00843d  !important;
+}
+.btn-selection{
+  color:#fff;
+  background-color: #280071 !important;
+  border-color: #280071  !important;
+}
+.btn-selections:hover, .btn-selections:focus , .btn-selections:active, .btn-selection:hover, .btn-selection:focus , .btn-selection:active{
+  color:#fff !important;
+}
+
+ .form-error { color: #a94442; padding: 5px 0 0 0; letter-spacing: 1.5px; }
+
+/*END CALENDAR CSS [ALEX] */ 
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus
+{
+  background-color:#00334E !important;
+  color: #fff !important;
+  border-radius: 4px;
+  display: block !important;
+}
+
+
+
+/* DIRECTORY CSS [ALEX] */
+.d-name{
+  color: #280071;
+  font-size: 16px !important;
+}
+
+#d{
+  color: #629262;
+  height:100%;
+  font-size: 16px;
+  margin-left:30px;
+}
+#e{
+  color: #212b80;
+  height:100%;
+  font-size: 17px;
+  margin-left:0em;
+}
+
+.img-fixsize{
+  width: 200px;
+  height: 200px;
+
+}
+
+/* END DIRECTORY CSS [ALEX] */
+
+/* CHARITY CSS [ALEX] */
+.hvr-fade{
+  border:1px solid #202f80 !important;
+}
+
+
+.hvr-fade:active{
+  color: #fff !important;
+  background-color: #202f80 !important;
+}
+
+.hvr-fade:hover{
+   color: #fff !important;
+  background-color: #202f80 !important;
+}
+
+.hvr-fade:focus{
+   color: #fff !important;
+  background-color: #202f80 !important;
+}
+
+
+.hvr-fade:before{
+ 
+  color: #fff !important;
+  background-color: #202f80 !important;
+}
+
+
+/* END CHARITY CSS [ALEX] */
+
+.hvr-shutter-in-vertical{
+  background-color: #202f80 !important;
+}
+
+ .navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.4) !important;
+}
+
+.navbar-toggle{
+	background: #202f80 !important;
+	
+}
+
+.navbar-toggle .icon-bar + .icon-bar{
+	color:#fff !important;
+}
+
+.nav > li > a{
+color: #00334E !important;
+font-size:14px !important;
+margin-right: 1px;
+font-weight: bold;
+display: block; 
+ 
+}
+input::-webkit-input-placeholder {
+color:  #000000 !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color:  #000000 !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color:  #000000 !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color:  #000000 !important;
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+{
+  background-color:#00334E !important;
+  color: #fff !important;
+
+  
+  border-radius: 4px;
+}
+
+.navbar-nav
+{
+  margin:0px !important;
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus
+{
+  background: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+{
+  background: transparent;
+}
+
+.dropdown-menu > li > a
+{
+  color: #00334E !important;
+  font-size:14px !important;
+  margin-right: 1px;
+  font-weight: bold;
+  display: block; 
+   
+}
+
+
+.navbar-default{
+
+background-color: rgba(0,0,0,0.0) !important; 
+    border-color: rgba(0,0,0,0.0) !important; 
+ 
+}
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (max-width: 4680px) {
+
+}
+
+.hvr-shutter-in-vertical:before{
+ 
+  color: #202f80 !important;
+  background-color: #2098d1 !important;
+}
+
+
+.nav > ul {
+  float: center;
+}
+
+
+.loginmodal-container input[type=submit] {
+
+    padding: 8px 10px;
+
+}
+.hvr-underline-reveal:before{
+  background-color: #202f80 !important;
+}
+
+
+/*CSS GALERY*/
+.hovereffect {
+width:100%;
+height:100%;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+margin-bottom: 20px;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect h3 {
+text-transform:capitalize;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.hovereffect a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:1px solid #fff;
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin: -3px 0 0;
+padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h3,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+
+@media only screen and (max-width: 500px) {
+   .hovereffect{
+    margin-bottom:2em;
+   }
+
+}
+/*GALLERY*/
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+
+
+ 
+}
+
+.navbar {
+      margin-bottom: 50px !important;
+}
+
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+/* HEADER STYLE */
+.style { 
+	text-decoration: bold; 
+	font-family: Tahoma;" 
+	}

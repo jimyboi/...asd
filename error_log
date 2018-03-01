@@ -1,0 +1,24 @@
+[12-Nov-2015 02:31:22 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home3/softweba/public_html/network_plus/module/controllers/before.php on line 13
+[20-Nov-2015 00:37:03 America/Denver] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/softweba/public_html/network_plus/module/controllers/calendar.php on line 81
+[20-Nov-2015 00:37:14 America/Denver] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/softweba/public_html/network_plus/module/controllers/calendar.php on line 81
+[27-Nov-2015 11:50:22 Asia/Manila] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home3/softweba/public_html/network_plus/module/views/activity.php on line 153
+[27-Nov-2015 11:50:36 Asia/Manila] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home3/softweba/public_html/network_plus/module/views/activity.php on line 153
+[27-Nov-2015 11:51:19 Asia/Manila] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home3/softweba/public_html/network_plus/module/views/activity.php on line 154
+[27-Nov-2015 11:51:30 Asia/Manila] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home3/softweba/public_html/network_plus/module/views/activity.php on line 154
+[01-Dec-2015 15:22:35 Asia/Manila] PHP Fatal error:  Call to a member function userdata() on a non-object in /home3/softweba/public_html/network_plus/module/views/header.php on line 64
+[06-May-2016 16:39:16 Asia/Manila] PHP Parse error:  syntax error, unexpected end of file in /home3/softweba/public_html/network_plus/module/views/forgotpass.php on line 65
+[06-May-2016 16:39:20 Asia/Manila] PHP Parse error:  syntax error, unexpected end of file in /home3/softweba/public_html/network_plus/module/views/forgotpass.php on line 65
+[06-May-2016 16:40:16 Asia/Manila] PHP Parse error:  syntax error, unexpected end of file in /home3/softweba/public_html/network_plus/module/views/forgotpass.php on line 65
+[13-Jul-2016 19:38:19 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home3/softweba/public_html/network_plus/module/controllers/admin.php on line 584
+[13-Jul-2016 19:40:17 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home3/softweba/public_html/network_plus/module/controllers/admin.php on line 584
+[13-Jul-2016 19:42:04 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home3/softweba/public_html/network_plus/module/controllers/admin.php on line 584
+[13-Jul-2016 20:04:54 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home3/softweba/public_html/network_plus/module/controllers/admin.php on line 584
+[13-Jul-2016 20:05:00 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home3/softweba/public_html/network_plus/module/controllers/admin.php on line 584
+[13-Jul-2016 20:05:20 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home3/softweba/public_html/network_plus/module/controllers/admin.php on line 584
+[13-Jul-2016 20:05:29 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home3/softweba/public_html/network_plus/module/controllers/admin.php on line 584
+[13-Jul-2016 20:07:00 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home3/softweba/public_html/network_plus/module/controllers/admin.php on line 584
+[23-Sep-2016 12:05:32 Asia/Manila] PHP Parse error:  syntax error, unexpected '!' in /home3/softweba/public_html/network_plus/module/views/directory_v.php on line 102
+[23-Sep-2016 12:05:44 Asia/Manila] PHP Parse error:  syntax error, unexpected '!' in /home3/softweba/public_html/network_plus/module/views/directory_v.php on line 102
+[23-Sep-2016 12:07:08 Asia/Manila] PHP Parse error:  syntax error, unexpected 'empty' (T_EMPTY) in /home3/softweba/public_html/network_plus/module/views/directory_v.php on line 102
+[07-Oct-2016 11:57:07 Asia/Manila] PHP Fatal error:  Can't use method return value in write context in /home3/softweba/public_html/network_plus/module/views/header.php on line 66
+[07-Oct-2016 14:36:30 Asia/Manila] PHP Fatal error:  Call to a member function userdata() on a non-object in /home3/softweba/public_html/network_plus/module/views/header.php on line 64

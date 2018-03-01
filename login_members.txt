@@ -1,0 +1,62 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.7.1
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jan 26, 2018 at 11:27 AM
+-- Server version: 5.6.20
+-- PHP Version: 5.5.15
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `whng`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login_members`
+--
+
+CREATE TABLE IF NOT EXISTS `login_members` (
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `status` varchar(255) NOT NULL,
+  `date_created` date NOT NULL,
+`login_id` int(11) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
+
+--
+-- Dumping data for table `login_members`
+--
+
+INSERT INTO `login_members` (`username`, `password`, `status`, `date_created`, `login_id`) VALUES
+('jadenikko', 'ca80007446c3c8a310d2cc1921241c8f59d0ed02fae03ca037ff6381d4a263fa4f7b2d6f85d5fb9c8222b1e9dd611f79fde4d3c5fc2ac78f8772e4cb99fa287a', 'active', '2018-01-26', 1),
+('jm', 'a55ddf12272f08b07c8c3f1e153f05801c50e01c57a8f71de9f8c5bf2dfde924ae403f95dbead31522f0073608a8853a160b2781c2288b28a02093ee096a4b10', 'active', '2018-01-26', 2),
+('jm', 'a55ddf12272f08b07c8c3f1e153f05801c50e01c57a8f71de9f8c5bf2dfde924ae403f95dbead31522f0073608a8853a160b2781c2288b28a02093ee096a4b10', 'active', '2018-01-26', 3),
+('jadenikko', 'ca80007446c3c8a310d2cc1921241c8f59d0ed02fae03ca037ff6381d4a263fa4f7b2d6f85d5fb9c8222b1e9dd611f79fde4d3c5fc2ac78f8772e4cb99fa287a', 'active', '2018-01-26', 4),
+('jadenikko', 'ca80007446c3c8a310d2cc1921241c8f59d0ed02fae03ca037ff6381d4a263fa4f7b2d6f85d5fb9c8222b1e9dd611f79fde4d3c5fc2ac78f8772e4cb99fa287a', 'active', '2018-01-26', 5),
+('jadenikko', '48fe1e3200f132e00c2c41f87c921b33e733eab5789beed0242b2769eb2d2d1000c42ba001c8270c445074da0aeef6c200da30037896aaaa4017fc23cf831170', 'active', '2018-01-26', 6),
+('jm', 'a55ddf12272f08b07c8c3f1e153f05801c50e01c57a8f71de9f8c5bf2dfde924ae403f95dbead31522f0073608a8853a160b2781c2288b28a02093ee096a4b10', 'active', '2018-01-26', 7);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `login_members`
+--
+ALTER TABLE `login_members`
+ ADD PRIMARY KEY (`login_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `login_members`
+--
+ALTER TABLE `login_members`
+MODIFY `login_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
